@@ -96,5 +96,8 @@ body {
   font-size: 12px;
   text-align: right;
   margin: 15px 0;
+}
 
+.icons {
+  margin: 5px;
 }
