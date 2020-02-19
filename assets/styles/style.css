@@ -1,0 +1,82 @@
+/* generali */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-image: url(../img/bg.jpg);
+  width: 70%;
+  margin: auto;
+  color: #fff;
+}
+
+/* header */
+
+#container-header {
+  font-size: 30px;
+  border-bottom: 2px solid #fff;
+}
+
+#logo {
+    width: 100px;
+    vertical-align: middle;
+}
+
+/* Search tool */
+
+#searchtool {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #fff;
+}
+
+#badge {
+  display:inline-block;
+  background-color: rgba(252, 44, 3, 0.8);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* Lista email */
+
+#lista {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 15px;
+}
+.rows {
+  color: #000;
+  margin: 2px 5px;
+}
+.unread {
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.read {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.object::before {
+  content: ' | '
+}
+
+.intro::before {
+  content: ' | '
+}
+
+.intro::after {
+  content: '...'
+}
+
+/* footer */
+
+#copy{
+  display: block;
+  font-size: 12px;
+  text-align: right;
+  margin: 15px 0;
+
+}
